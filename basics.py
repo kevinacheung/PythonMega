@@ -11,9 +11,10 @@ y = 2
 z = 1111
 #print(x, y, z)
 
-studentgrades = [91, 88, 75]
-studsum = sum(studentgrades)
-studlen = len(studentgrades)
-#print("The sum is " + str(studsum) + " and the count is " + str(studlen) + " and the average is " + str(studsum/studlen))
+temperatures = [91, 88, 75]
+studentgrades = {"Ann":91, "Bob":88, "Chris":75}
+studsum = sum(studentgrades.values())
+studlen = len(studentgrades.values())
+print("The sum is " + str(studsum) + " and the count is " + str(studlen) + " and the average is " + str(studsum/studlen))
 
 print("Why is Github integration so hard???")
