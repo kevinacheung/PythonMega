@@ -16,4 +16,4 @@ studsum = sum(studentgrades)
 studlen = len(studentgrades)
 print("The sum is " + str(studsum) + " and the count is " + str(studlen) + " and the average is " + str(studsum/studlen))
 
-print("WHy is Github integration so hard???")
+print("Why is Github integration so hard???")
